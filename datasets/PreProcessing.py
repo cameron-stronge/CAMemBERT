@@ -18,5 +18,6 @@ def save_hg_dataset(dataset_title,path):
     pickle.dump(dataset, filehandler)
     filehandler.close()
 
-def split_data(df):
-    return np.split(df.sample(frac=1), [ int(len(df)*0.6), int(len(df)*0.8)])
+def split_data(df,train_split=0.6):
+    val_test_split = 1-((1-train_split)*0.5)
+    return np.split(df.sample(frac=1), [ int(len(df)*train_split), int(len(df)*val_test_split)])
