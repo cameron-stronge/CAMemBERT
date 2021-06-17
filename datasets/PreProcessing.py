@@ -1,5 +1,6 @@
 import pickle
 import pandas as pd
+import numpy as np
 from datasets import load_dataset
 
 
@@ -16,3 +17,6 @@ def save_hg_dataset(dataset_title,path):
     filehandler = open(filename, 'wb') 
     pickle.dump(dataset, filehandler)
     filehandler.close()
+
+def split_data(df):
+    return np.split(df.sample(frac=1), [ int(len(df)*0.6), int(len(df)*0.8)])
