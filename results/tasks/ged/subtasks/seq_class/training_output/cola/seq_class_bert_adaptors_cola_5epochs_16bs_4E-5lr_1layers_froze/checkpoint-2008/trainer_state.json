@@ -1,0 +1,80 @@
+{
+  "best_metric": 0.8627935723114957,
+  "best_model_checkpoint": "results/tasks/ged/subtasks/seq_class//training_output/cola/seq_class_bert_adaptors_cola_5epochs_16bs_4E-5lr_1layers_froze/checkpoint-1004",
+  "epoch": 4.0,
+  "global_step": 2008,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "learning_rate": 3.203187250996016e-05,
+      "loss": 0.541,
+      "step": 500
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.7571157495256167,
+      "eval_f1": 0.8465227817745803,
+      "eval_loss": 0.5240626335144043,
+      "step": 502,
+      "train_accuracy": 0.7706879361914257,
+      "train_f1": 0.855957413496164,
+      "train_loss": 0.5068923234939575
+    },
+    {
+      "epoch": 1.99,
+      "learning_rate": 2.4063745019920322e-05,
+      "loss": 0.4746,
+      "step": 1000
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.7893738140417458,
+      "eval_f1": 0.8627935723114957,
+      "eval_loss": 0.43844279646873474,
+      "step": 1004,
+      "train_accuracy": 0.8074526420737786,
+      "train_f1": 0.8721555647496898,
+      "train_loss": 0.4220452606678009
+    },
+    {
+      "epoch": 2.99,
+      "learning_rate": 1.609561752988048e-05,
+      "loss": 0.4524,
+      "step": 1500
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.777988614800759,
+      "eval_f1": 0.8578371810449574,
+      "eval_loss": 0.4735265076160431,
+      "step": 1506,
+      "train_accuracy": 0.8052093718843469,
+      "train_f1": 0.8741647210369535,
+      "train_loss": 0.43535366654396057
+    },
+    {
+      "epoch": 3.98,
+      "learning_rate": 8.12749003984064e-06,
+      "loss": 0.4244,
+      "step": 2000
+    },
+    {
+      "epoch": 4.0,
+      "eval_accuracy": 0.7836812144212524,
+      "eval_f1": 0.8609756097560975,
+      "eval_loss": 0.48067596554756165,
+      "step": 2008,
+      "train_accuracy": 0.8130608175473579,
+      "train_f1": 0.8781280467988302,
+      "train_loss": 0.4307722747325897
+    }
+  ],
+  "max_steps": 2510,
+  "num_train_epochs": 5,
+  "total_flos": 1367676576079872.0,
+  "trial_name": null,
+  "trial_params": null
+}

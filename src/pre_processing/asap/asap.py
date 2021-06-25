@@ -1,10 +1,10 @@
 import pandas as pd
 import os, sys
 currentdir = os.path.dirname(os.path.realpath(__file__))
-preprocess_mod_ind = currentdir.split('/').index('BERT-Projects')
+preprocess_mod_ind = currentdir.split('/').index('CAMemBERT')
 preprocess_mod_path = '/'.join(currentdir.split('/')[:preprocess_mod_ind+1])
 sys.path.append(preprocess_mod_path)
-from src.pre_processing.utils import (nomalise_scores,normalise_params,save_split_as_csv,
+from src.utils.preprocessing import (nomalise_scores,normalise_params,save_split_as_csv,
                                       save_split_as_pickle,save_pickle_file,split_data)
 
 dataset_name = 'asap'
@@ -14,7 +14,7 @@ subtask = 'regression'
 # /Users/cameronstronge/BERT-Projects/datasets/originals/asap/training_set_rel3.tsv
 
 original_file_path = f'datasets/originals/{dataset_name}/'
-pre_processed_file_path = f'datasets/pre_processed/{task}/{subtask}/'
+pre_processed_file_path = f'processed_data/tasks/{task}/subtasks/{subtask}/'
 
 ASAP = pd.read_csv(f'{original_file_path}training_set_rel3.tsv',
       sep='\t',encoding='latin').astype(int,errors='ignore').set_index('essay_id')

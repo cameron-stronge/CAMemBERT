@@ -1,0 +1,40 @@
+{
+  "best_metric": 0.9415063331897615,
+  "best_model_checkpoint": "results/tasks/aes/subtasks/regression//training_output/asap/r2_bert_adaptors_asap_dev_set_5epochs_16bs_4E-5lr_1layers_froze/checkpoint-49",
+  "epoch": 2.0,
+  "global_step": 98,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_cohen_kappa": 0.2837343763285435,
+      "eval_loss": 2.7445688247680664,
+      "eval_pearsonr": 0.9415063331897615,
+      "eval_spearmanr": 0.899928996010444,
+      "step": 49,
+      "train_cohen_kappa": 0.28677243916019424,
+      "train_loss": 2.758998155593872,
+      "train_pearsonr": 0.9439117785963008,
+      "train_spearmanr": 0.9210599635269693
+    },
+    {
+      "epoch": 2.0,
+      "eval_cohen_kappa": 0.31143366437484077,
+      "eval_loss": 2.714231014251709,
+      "eval_pearsonr": 0.9335150980400356,
+      "eval_spearmanr": 0.9121079675431563,
+      "step": 98,
+      "train_cohen_kappa": 0.31129524116744633,
+      "train_loss": 2.7283694744110107,
+      "train_pearsonr": 0.9270304679806395,
+      "train_spearmanr": 0.9245323082687924
+    }
+  ],
+  "max_steps": 245,
+  "num_train_epochs": 5,
+  "total_flos": 530431207600128.0,
+  "trial_name": null,
+  "trial_params": null
+}

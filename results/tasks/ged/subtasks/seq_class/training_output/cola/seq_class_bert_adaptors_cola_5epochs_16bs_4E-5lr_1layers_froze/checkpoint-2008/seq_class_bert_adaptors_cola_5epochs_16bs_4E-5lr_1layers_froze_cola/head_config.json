@@ -1,0 +1,17 @@
+{
+  "config": {
+    "activation_function": "tanh",
+    "head_type": "classification",
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "layers": 2,
+    "num_labels": 2
+  },
+  "hidden_size": 768,
+  "model_class": "BertModelWithHeads",
+  "model_name": "bert-base-uncased",
+  "model_type": "bert",
+  "name": "seq_class_bert_adaptors_cola_5epochs_16bs_4E-5lr_1layers_froze_cola"
+}

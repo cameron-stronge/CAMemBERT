@@ -3,17 +3,17 @@ import glob
 from bs4 import BeautifulSoup
 import os, sys
 currentdir = os.path.dirname(os.path.realpath(__file__))
-preprocess_mod_ind = currentdir.split('/').index('BERT-Projects')
+preprocess_mod_ind = currentdir.split('/').index('CAMemBERT')
 preprocess_mod_path = '/'.join(currentdir.split('/')[:preprocess_mod_ind+1])
 sys.path.append(preprocess_mod_path)
-from src.pre_processing.utils import save_split_as_csv,save_split_as_pickle,split_data
+from src.utils.preprocessing import save_split_as_csv,save_split_as_pickle,split_data
 
 dataset_name = 'fce_essays'
 task = 'aes'
 subtask = 'regression'
 
 original_file_path = f'datasets/originals/{dataset_name}/'
-pre_processed_file_path = f'datasets/pre_processed/{task}/{subtask}/'
+pre_processed_file_path = f'processed_data/tasks/{task}/subtasks/{subtask}/'
 
 def build_dataset(original_file_path):
     essays = []
@@ -33,11 +33,16 @@ def build_dataset(original_file_path):
         essays.append(cur_essay)
         scores.append(cur_score)
         languages.append(cur_lang)
-    df = pd.DataFrame({'essays':essays,'scores':scores})
+    df = pd.DataFrame({'essays':essays,'labels':scores})
     df['essays'] = df.essays.str.replace('\n',' ').str.replace('\t',' ').str.replace('\s',' ').str.replace("\\","")
     return df
 
 fce_data = build_dataset(original_file_path)
+
+fce_data['essay_set'] = 1
+min_score = fce_data['labels'].min()
+score_range = fce_data['labels'].max() - min_score
+fce_data['norm_scores'] = (fce_data['labels']-min_score)/score_range
 
 train,test,val = split_data(fce_data)
 

@@ -1,0 +1,82 @@
+{
+  "best_metric": 0.9612325354216449,
+  "best_model_checkpoint": "results/tasks/aes/subtasks/regression//asap/r2_bert_training_output/checkpoint-1948",
+  "epoch": 4.0,
+  "global_step": 1948,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_cohen_kappa": 0.2985624228960969,
+      "eval_loss": 2.753582239151001,
+      "eval_pearsonr": 0.9320203592410924,
+      "eval_spearmanr": 0.9450661805713109,
+      "step": 487,
+      "train_cohen_kappa": 0.3002666725986949,
+      "train_loss": 2.752267599105835,
+      "train_pearsonr": 0.9437556560157568,
+      "train_spearmanr": 0.9559296262083483
+    },
+    {
+      "epoch": 1.03,
+      "learning_rate": 3.863107460643395e-05,
+      "loss": 2.7561,
+      "step": 500
+    },
+    {
+      "epoch": 2.0,
+      "eval_cohen_kappa": 0.45024042662147123,
+      "eval_loss": 2.7543158531188965,
+      "eval_pearsonr": 0.9526513298216767,
+      "eval_spearmanr": 0.9517896182952083,
+      "step": 974,
+      "train_cohen_kappa": 0.5831171650099998,
+      "train_loss": 2.750523805618286,
+      "train_pearsonr": 0.9769011562713984,
+      "train_spearmanr": 0.9728919311463405
+    },
+    {
+      "epoch": 2.05,
+      "learning_rate": 3.72621492128679e-05,
+      "loss": 2.7526,
+      "step": 1000
+    },
+    {
+      "epoch": 3.0,
+      "eval_cohen_kappa": 0.26241333452808646,
+      "eval_loss": 2.754020929336548,
+      "eval_pearsonr": 0.913940557892931,
+      "eval_spearmanr": 0.9470266838333518,
+      "step": 1461,
+      "train_cohen_kappa": 0.2834119253381454,
+      "train_loss": 2.748122453689575,
+      "train_pearsonr": 0.938029939780309,
+      "train_spearmanr": 0.9661642682461661
+    },
+    {
+      "epoch": 3.08,
+      "learning_rate": 3.5893223819301854e-05,
+      "loss": 2.7496,
+      "step": 1500
+    },
+    {
+      "epoch": 4.0,
+      "eval_cohen_kappa": 0.46452642155597734,
+      "eval_loss": 2.753746271133423,
+      "eval_pearsonr": 0.9612325354216449,
+      "eval_spearmanr": 0.9504535050239248,
+      "step": 1948,
+      "train_cohen_kappa": 0.7768929939980622,
+      "train_loss": 2.7469422817230225,
+      "train_pearsonr": 0.9929698489595432,
+      "train_spearmanr": 0.9938923211918039
+    }
+  ],
+  "max_steps": 14610,
+  "num_train_epochs": 30,
+  "total_flos": 0.0,
+  "trial_name": null,
+  "trial_params": null
+}

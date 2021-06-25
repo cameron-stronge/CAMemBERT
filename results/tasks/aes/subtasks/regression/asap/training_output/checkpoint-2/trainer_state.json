@@ -1,0 +1,40 @@
+{
+  "best_metric": 0.0,
+  "best_model_checkpoint": "results/tasks/aes/subtasks/regression/asap/training_output/checkpoint-1",
+  "epoch": 2.0,
+  "global_step": 2,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_cohen_kappa": 0.0,
+      "eval_loss": 1.1027649641036987,
+      "eval_pearsonr": 0.0,
+      "eval_spearmanr": NaN,
+      "step": 1,
+      "train_cohen_kappa": 0.18644067796610164,
+      "train_loss": 2.066462278366089,
+      "train_pearsonr": 0.8699593623007189,
+      "train_spearmanr": 0.9695842965755979
+    },
+    {
+      "epoch": 2.0,
+      "eval_cohen_kappa": 0.0,
+      "eval_loss": 0.08684995025396347,
+      "eval_pearsonr": 0.0,
+      "eval_spearmanr": NaN,
+      "step": 2,
+      "train_cohen_kappa": 0.31034482758620685,
+      "train_loss": 0.017274433746933937,
+      "train_pearsonr": 0.9199749921850578,
+      "train_spearmanr": 0.9695842965755979
+    }
+  ],
+  "max_steps": 3,
+  "num_train_epochs": 3,
+  "total_flos": 0.0,
+  "trial_name": null,
+  "trial_params": null
+}

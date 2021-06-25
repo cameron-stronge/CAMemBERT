@@ -1,0 +1,5 @@
+,eval_loss,eval_f1,eval_accuracy,epoch,step,early_stopping,lr,batch_size,full_epochs,frozen_layers,metric_for_best_model,dev,max_n_tokens,pre_trained_model_name,task,subtask,time
+0,0.4551490843296051,0.8475452196382429,0.7760910815939279,4.0,2008,2,4e-05,16,5,1,f1,False,64,bert-base-uncased,ged,seq_class,25/06/2021 14:37:11
+1,0.44170233607292175,0.8826666666666667,0.8330170777988615,4.0,2008,2,4e-05,16,5,1,f1,False,64,bert-base-uncased,ged,seq_class,25/06/2021 14:40:07
+2,1.2029451131820679,0.8353909465020576,0.7964376590330788,5.0,1580,2,4e-05,16,5,1,f1,False,64,bert-base-uncased,ged,seq_class,25/06/2021 14:45:04
+3,0.4665450155735016,0.8171206225680934,0.7608142493638677,3.0,948,2,4e-05,16,5,1,f1,True,64,bert-base-uncased,ged,seq_class,25/06/2021 15:01:53

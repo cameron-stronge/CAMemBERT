@@ -1,0 +1,42 @@
+{
+  "best_metric": 0.834108527131783,
+  "best_model_checkpoint": "results/tasks/ged/subtasks/seq_class//training_output/fce_grammar/seq_class_bert_fce_grammar_5epochs_16bs_4E-5lr_1layers_froze/checkpoint-632",
+  "epoch": 2.0,
+  "global_step": 632,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.7615062761506276,
+      "eval_f1": 0.8229813664596273,
+      "eval_loss": 0.45315390825271606,
+      "step": 316,
+      "train_accuracy": 0.8657041139240507,
+      "train_f1": 0.8964465456763764,
+      "train_loss": 0.29944294691085815
+    },
+    {
+      "epoch": 1.58,
+      "learning_rate": 2.7341772151898737e-05,
+      "loss": 0.3982,
+      "step": 500
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.7761506276150628,
+      "eval_f1": 0.834108527131783,
+      "eval_loss": 0.5371723771095276,
+      "step": 632,
+      "train_accuracy": 0.9497626582278481,
+      "train_f1": 0.9627347417840375,
+      "train_loss": 0.13642944395542145
+    }
+  ],
+  "max_steps": 1580,
+  "num_train_epochs": 5,
+  "total_flos": 425126385844224.0,
+  "trial_name": null,
+  "trial_params": null
+}

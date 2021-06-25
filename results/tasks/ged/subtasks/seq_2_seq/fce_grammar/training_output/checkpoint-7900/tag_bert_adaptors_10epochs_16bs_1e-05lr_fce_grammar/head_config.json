@@ -1,0 +1,17 @@
+{
+  "config": {
+    "activation_function": "tanh",
+    "head_type": "tagging",
+    "label2id": {
+      "c": 0,
+      "i": 1
+    },
+    "layers": 1,
+    "num_labels": 2
+  },
+  "hidden_size": 768,
+  "model_class": "BertModelWithHeads",
+  "model_name": "bert-base-uncased",
+  "model_type": "bert",
+  "name": "tag_bert_adaptors_10epochs_16bs_1e-05lr_fce_grammar"
+}

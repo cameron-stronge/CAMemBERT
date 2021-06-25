@@ -1,0 +1,32 @@
+{
+  "best_metric": 0.8465227817745803,
+  "best_model_checkpoint": "results/tasks/ged/subtasks/seq_class//training_output/cola/seq_class_bert_adaptors_cola_5epochs_16bs_4E-5lr_1layers_froze/checkpoint-502",
+  "epoch": 1.0,
+  "global_step": 502,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "learning_rate": 3.203187250996016e-05,
+      "loss": 0.541,
+      "step": 500
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.7571157495256167,
+      "eval_f1": 0.8465227817745803,
+      "eval_loss": 0.5240626335144043,
+      "step": 502,
+      "train_accuracy": 0.7706879361914257,
+      "train_f1": 0.855957413496164,
+      "train_loss": 0.5068923234939575
+    }
+  ],
+  "max_steps": 2510,
+  "num_train_epochs": 5,
+  "total_flos": 341919144019968.0,
+  "trial_name": null,
+  "trial_params": null
+}

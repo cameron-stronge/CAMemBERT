@@ -1,0 +1,28 @@
+{
+  "best_metric": -23.691959500128245,
+  "best_model_checkpoint": "results/tasks/aes/subtasks/regression//fce_essays/r2_bert_training_output/checkpoint-47",
+  "epoch": 1.0,
+  "global_step": 47,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_cohen_kappa": 0.0,
+      "eval_loss": 2.252084970474243,
+      "eval_pearsonr": -23.691959500128245,
+      "eval_spearmanr": 0.5685551268144255,
+      "step": 47,
+      "train_cohen_kappa": 0.0,
+      "train_loss": 2.1558785438537598,
+      "train_pearsonr": -25.603519155260127,
+      "train_spearmanr": 0.6321045288629112
+    }
+  ],
+  "max_steps": 141,
+  "num_train_epochs": 3,
+  "total_flos": 0.0,
+  "trial_name": null,
+  "trial_params": null
+}

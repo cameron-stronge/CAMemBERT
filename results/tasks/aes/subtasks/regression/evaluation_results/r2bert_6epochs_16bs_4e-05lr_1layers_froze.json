@@ -1,0 +1,1 @@
+{"eval_loss": 0.018332289531826973, "eval_spearmanr": 0.9539671942149275, "eval_cohen_kappa": 0.47210938722142826, "eval_pearsonr": 0.9695823195284701, "epoch": 6.0, "step": 2922, "dataset": "asap", "early_stopping": 2, "lr": 4e-05, "batch_size": 16, "model": "bert-base-uncased", "task": "aes", "subtask": "regression", "layers_froze": 1}

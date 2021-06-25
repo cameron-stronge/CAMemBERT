@@ -1,0 +1,1 @@
+{"eval_loss": 0.24905042350292206, "eval_f1": 0.2481042102814608, "eval_accuracy": 0.8977048142727165, "epoch": 6.0, "step": 9480, "dataset": "fce_grammar", "early_stopping": 2, "lr": 0.0001, "batch_size": 16, "model": "bert-base-uncased", "task": "ged", "subtask": "seq_2_seq", "layers_froze": "all"}

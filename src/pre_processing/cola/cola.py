@@ -2,17 +2,17 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import os, sys
 currentdir = os.path.dirname(os.path.realpath(__file__))
-preprocess_mod_ind = currentdir.split('/').index('BERT-Projects')
+preprocess_mod_ind = currentdir.split('/').index('CAMemBERT')
 preprocess_mod_path = '/'.join(currentdir.split('/')[:preprocess_mod_ind+1])
 sys.path.append(preprocess_mod_path)
-from src.pre_processing.utils import save_split_as_csv,save_split_as_pickle
+from src.utils.preprocessing import save_split_as_csv,save_split_as_pickle
 
 dataset_name = 'cola'
 task = 'ged'
 subtask = 'seq_class'
 
 original_file_path = f'datasets/originals/{dataset_name}/'
-pre_processed_file_path = f'datasets/pre_processed/{task}/{subtask}/'
+pre_processed_file_path = f'processed_data/tasks/{task}/subtasks/{subtask}/'
 
 train = pd.read_csv(f'{original_file_path}in_domain_train.tsv', delimiter='\t', header=None,
                             names=['sentence_source', 'label', 'label_notes', 'sentence'])

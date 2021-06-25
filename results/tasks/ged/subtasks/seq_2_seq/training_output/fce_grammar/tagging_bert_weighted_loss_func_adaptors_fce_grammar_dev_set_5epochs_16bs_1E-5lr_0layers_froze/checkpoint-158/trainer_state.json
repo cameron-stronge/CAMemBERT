@@ -1,0 +1,26 @@
+{
+  "best_metric": 0.0,
+  "best_model_checkpoint": "results/tasks/ged/subtasks/seq_2_seq//training_output/fce_grammar/tagging_bert_weighted_loss_func_adaptors_fce_grammar_dev_set_5epochs_16bs_1E-5lr_0layers_froze/checkpoint-158",
+  "epoch": 1.0,
+  "global_step": 158,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.9706962025316456,
+      "eval_f1": 0.0,
+      "eval_loss": 0.42564383149147034,
+      "step": 158,
+      "train_accuracy": 0.9691732594936708,
+      "train_f1": 0.0,
+      "train_loss": 0.4351889193058014
+    }
+  ],
+  "max_steps": 790,
+  "num_train_epochs": 5,
+  "total_flos": 167421814540800.0,
+  "trial_name": null,
+  "trial_params": null
+}
