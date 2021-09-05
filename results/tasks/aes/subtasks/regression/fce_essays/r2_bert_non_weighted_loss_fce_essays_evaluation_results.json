@@ -1,1 +1,0 @@
-{"eval_loss": 0.009471166878938675, "eval_spearmanr": 0.7429395744437857, "eval_cohen_kappa": 0.015038363171355429, "eval_pearsonr": 0.5331421775451779, "epoch": 30.0, "step": 1410}

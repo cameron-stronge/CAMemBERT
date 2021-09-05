@@ -1,1 +1,0 @@
-{"eval_loss": 0.2667369842529297, "eval_f1": 0.21251409244644873, "eval_accuracy": 0.8895652173913043, "epoch": 7.0, "step": 112, "dataset": "fce_grammar", "early_stopping": 3, "lr": 1e-05, "batch_size": 16}

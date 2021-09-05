@@ -1,3 +1,0 @@
-,eval_loss,eval_f1,eval_accuracy,epoch,step,early_stopping,lr,batch_size,full_epochs,frozen_layers,metric_for_best_model,dev,max_n_tokens,pre_trained_model_name,task,subtask,time
-0,0.2539803683757782,0.24563248612328364,0.8978560126582279,5.0,790,2,1e-05,16,5,0,f1,True,128,bert-base-uncased,ged,seq_2_seq,25/06/2021 13:20:49
-1,0.29651349782943726,0.20835090679038384,0.9183267405063291,5.0,790,2,1e-05,16,5,0,f1,True,128,bert-base-uncased,ged,seq_2_seq,25/06/2021 13:34:53

@@ -1,4 +1,4 @@
-adapter-transformers @ git+https://github.com/Adapter-Hub/adapter-transformers.git@39575b39785d6bb83c2cde5265d5ff975caa5afa
+
 beautifulsoup4==4.9.3
 certifi==2021.5.30
 chardet==4.0.0
